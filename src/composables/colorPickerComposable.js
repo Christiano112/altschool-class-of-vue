@@ -1,6 +1,6 @@
 import { ref } from "vue";
 
-export default colorPickerComposable = () => {
+export default function colorPickerComposable() {
     const colors = ['green', 'red', 'blue', 'purple'];
     const message = ref('Pick a color');
 
